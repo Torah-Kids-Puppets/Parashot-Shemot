@@ -52,8 +52,7 @@ header{
 }
 
 .cards .card{
-  width: auto;
-  height: 55%;
+  width: 50%;
    padding:20px 15px 20px 15px;
   display:flex;
   justify-content: center;
@@ -947,6 +946,13 @@ footer {
 
 /* Breakpoints responsive */
 
+
+@media screen and (max-width:950px) {
+    .cards .card{
+  width: 80%;
+  }
+}
+
 @media screen and (max-width:800px) {
     .titulo {
         font-size: 45px;
@@ -965,6 +971,9 @@ footer {
     .textos-header {
         margin: 0;
     }
+    .cards .card{
+  width: 80%;
+  }
 
     /* About us */
 
@@ -1245,7 +1254,7 @@ font-weight: 300;
 
     .cards .card{
         width: 90%;
-        height: 40%;
+        height: auto;
         padding: 10px 10px 15px 15px;
         display: flex;
         flex-direction: column;
