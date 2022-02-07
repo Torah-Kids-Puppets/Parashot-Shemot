@@ -204,7 +204,7 @@ position: inherit;
   flex-direction: row;
   align-items: baseline;
   width: 100%;
-  height: 555px;
+  height: 550px;
   overflow: scroll;
 }
 .contenedor-serviciohaf::-webkit-scrollbar {

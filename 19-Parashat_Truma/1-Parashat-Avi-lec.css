@@ -1023,7 +1023,7 @@ footer {
     .services {
         flex-direction: column-reverse;
         align-items: center;
-    margin-bottom: -20%;
+    margin-bottom: -16%;
     }
 
     .box-skills {
